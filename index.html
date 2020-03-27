@@ -1,17 +1,427 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>第一个程序</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="keywords" content="start with HTML5, CCS3 and so on">
-		<meta name="description" content="Hello world! Here is a novice with great motivation and enthusiasm for learning. Let's work hard together!">
-		<meta name="author" content="Ted Xu">
-	</head>
-	<body>
-		<h1>Hello World</h1>
-		<p>Hello world! Here is a novice with great motivation and enthusiasm for learning. Let's work hard together!</p>
-		<img src="test.jpg" alt="宝贝的画" height="512px" width="512px"/>
-	</body>
-</html>
+<html lang="en">
 
+<!--[if gte IE 9]>
+<html class="ie9" lang="en">    <![endif]-->
+<!--[if gte IE 8]>
+<html class="ie8" lang="en">    <![endif]-->
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="简历">
+    <meta name="description" content="许辰昊简历">
+    <meta name="author" content="Ted Xu">
+    <title>许辰昊-简历</title>
+
+    <!-- CSS  -->
+    <link href="css/master.css" rel="stylesheet" type="text/css"/>
+    <link href="css/theme/themeBlue.css" rel="stylesheet" type="text/css"/>
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css"/>
+    <link href="css/lightbox.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jpreloader.css" rel="stylesheet" type="text/css"/>
+
+
+    <!-- Scripts  -->
+    <script type="text/javascript" src="js/jquery-1-7-2.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="js/jpreLoader.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <style>             
+        img{                 
+          width: auto;                 
+          height:auto;                 
+          max-height: 100%;                 
+          max-width: 100%;}         
+        </style>
+</head>
+
+<body>
+<!-- Wrapper -->
+<div id="wrapper">
+    <!-- Header -->
+    <div id="header">
+        <div id="header-inner" class="inner">
+            <ul id="menu">
+                <li class="menu-list">
+                    <div id="menu-intro" class="menu-icon menu-active">Intro</div>
+                    <a href="#" class="menu-hover">Intro</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-resume" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Resume</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-portfolio" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Portfolio</a></li>
+                <li class="menu-list menu-click">
+                    <div id="menu-contact" class="menu-icon">Intro</div>
+                    <a href="#" class="menu-hover">Contact</a></li>
+            </ul>
+
+            <!-- Slider -->
+            <div id="menu-slider">
+                <div id="menu-slider-container">
+                    <div class="slider-bg bg-black"></div> <!-- Slider Background -->
+                    <div id="menu-slider-bar" class="slider-bar color-bar animate-bar"></div> <!-- Slider Bar -->
+                    <div id="menu-slider-pointer" class="slider-pointer color-pointer"></div> <!-- Slider Pointer -->
+                </div>
+            </div>
+            <!-- End Slider -->
+
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Content -->
+    <div id="content" class="inner">
+        <!-- Title -->
+        <h1 class="title-active">主页</h1>
+        <h1>履历</h1>
+        <h1>作品</h1>
+        <h1>联系</h1>
+        <!-- End Title -->
+
+        <div id="content-wrapper">
+            <div id="content-header"></div> <!-- Content Header -->
+            <div id="content-core-wrapper">
+                <div id="content-core">
+                    <!-- Intro -->
+                    <div id="intro" class="content-list content-list-active">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li><img src="img/slideshow/slideshow.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+
+                        <div class="full-three separator"></div>
+
+                        <div class="one-three">
+                            <div class="photo-frame">
+                            <img src="img/photos/xch.jpg" alt="Photo of me"/>
+                            </div>
+                        </div>
+                        <div class="two-three">
+                            <h2>你好，我是 许辰昊</h2>
+                            <p>编程5min，吹水2h。Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur viverra porta dictum.
+                                Nullam sem quam, ultrices semper congue eu, placerat ac quam. Pellentesque tempor nisi
+                                eu turpis feugiat ornare. Nullam risus enim, eleifend non imperdiet vel, fermentum quis
+                                tellus. Nulla pretium orci nec metus lobortis non convallis sem porta. Praesent
+                                hendrerit adipiscing mauris vitae sodales. Proin eget risus in velit blandit rhoncus
+                                imperdiet at mi. Sed eleifend, augue et tincidunt condimentum, massa tellus hendrerit
+                                odio, vel vehicula leo ligula sed lorem. Quisque adipiscing, enim vel iaculis venenatis,
+                                velit leo viverra tellus, ac sagittis neque velit in sem. Sed elementum tincidunt velit,
+                                ac gravida magna aliquam ac. Sed viverra mollis nisl, at ullamcorper mauris condimentum
+                                vel. Vestibulum nisl mi, lacinia rhoncus congue sit amet, convallis eget quam.
+                                Vestibulum interdum imperdiet justo laoreet tempor. </p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Intro -->
+
+                    <!-- Resume -->
+                    <div id="resume" class="content-list">
+                        <div class="one-three">
+                            <div class="photo-frame">
+                                <img src="img/photos/xch.jpg" alt="Photo of me"/>
+                            </div>
+                        </div>
+                        <div class="two-three">
+                            <div class="group-container">
+                                <h2>About me</h2>
+                                <div class="resume-group">
+                                    <div class="resume-label">Name</div>
+                                    <div class="resume-info">许辰昊</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Date of birth</div>
+                                    <div class="resume-info">July, 1 2000</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Address</div>
+                                    <div class="resume-info">山东省，青岛市，市南区
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Email</div>
+                                    <div class="resume-info">1853769@tongji.edu.cn</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Phone</div>
+                                    <div class="resume-info">+86 138 0899 6009</div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+
+                            <div class="group-container">
+                                <h2>技能</h2>
+                                <div class="resume-group">
+                                    <div class="resume-label">Python</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level9"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Lightroom</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level9"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">HTML5+CSS3+JS</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level8"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">Autocad</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level7"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">UG NX</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level8"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="resume-group">
+                                    <div class="resume-label">C/C++</div>
+                                    <div class="resume-info">
+                                        <div class="resume-bar">
+                                            <div class="slider-bg bg-grey"></div> <!-- Slider Background -->
+                                            <div class="slider-bar color-bar level3"></div> <!-- Slider Bar -->
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-three">
+                            <div class="group-container">
+                                <h2>教育程度</h2>
+                                <div class="resume-group">
+                                    <h3>同济大学, 2018</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-three">
+                            <div class="group-container">
+                                <h2>工作经历</h2>
+                                <div class="resume-group">
+                                    <h3>同济大学, 2018 - 2020</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+
+                                <div class="resume-group">
+                                    <h3>无, ？ - ？</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat
+                                        nunc. Phasellus vel orci ligula. Quisque dignissim velit vel augue adipiscing
+                                        quis porta neque congue. Aliquam vulputate, odio sed rutrum eleifend, nisi mi
+                                        facilisis turpis, ut sodales quam lectus eu felis. Pellentesque justo magna,
+                                        tincidunt vel dignissim nec, tincidunt id nisi. Maecenas varius quam at ante
+                                        laoreet quis semper ante egestas. In et velit dui. Sed porttitor condimentum
+                                        rhoncus. </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Resume -->
+
+                    <!-- Portfolio -->
+                    <div id="portfolio" class="content-list">
+                        <!-- Portfolio Filter -->
+                        <div id="portfolio-filter-container">
+                            <ul id="portfolio-filter">
+                                <li><a href="#" class="current" data-filter="*">所有</a></li>
+                                <li><a href="#" data-filter=".animation">项目一</a></li>
+                                <li><a href="#" data-filter=".photography">项目二</a></li>
+                                <li><a href="#" data-filter=".webdesign">项目三</a></li>
+                                <li><a href="#" data-filter=".printdesign">项目四</a></li>
+                            </ul>
+                        </div>
+                        <!-- End Portfolio Filter -->
+
+                        <!-- Portfolio Lists -->
+                        <ul id="portfolio-list">
+                            <li class="photography">
+                                <a href="img/portfolio/preview1.jpg" rel="lightbox[portfolio]" title="Photography">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview2.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview3.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="printdesign">
+                                <a href="img/portfolio/preview4.jpg" rel="lightbox[portfolio]" title="Print Design">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview5.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="animation">
+                                <a href="img/portfolio/preview6.jpg" rel="lightbox[portfolio]" title="Animation">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="webdesign">
+                                <a href="img/portfolio/preview7.jpg" rel="lightbox[portfolio]" title="Web Design">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                            <li class="printdesign">
+                                <a href="img/portfolio/preview8.jpg" rel="lightbox[portfolio]" title="Print Design">
+                                    <img src="img/portfolio/github.png" alt=""/>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End Portfolio Lists -->
+
+                    </div>
+                    <!-- End Portfolio -->
+
+                    <!-- Contact -->
+                    <div id="contact" class="content-list content-contact">
+
+                        <div class="full-three separator"></div>
+
+                        <div class="two-three">
+                            <h2>欢迎联系</h2>
+                            <form id="contact-form" method="POST" action="contact.php"/>
+                            <div class="form-component">
+                                <h3>Name</h3>
+                                <input type="text" class="input textfield" name="name"/>
+                            </div>
+
+                            <div class="form-component">
+                                <h3>Email</h3>
+                                <input type="text" class="input textfield" name="email"/>
+                            </div>
+
+                            <div class="form-component">
+                                <h3>Message</h3>
+                                <textarea class="input textarea" name="message"></textarea>
+                            </div>
+
+                            <input type="submit" class="btn" value="联系我"/>
+                            </form>
+
+                        </div>
+                        <div class="one-three">
+                            <h2>联系方式</h2>
+                            <h3>Address</h3>
+                            <p>上海市，嘉定区，曹安公路4800号</p>
+                            <h3>Phone</h3>
+                            <p>+86 138 0899 6009</p>
+                            <h3>Email</h3>
+                            <p>13808996009@163.com</p>
+                            <h3>主页</h3>
+                            <p>http://ted-0711.github.io</p>
+                        </div>
+
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- End Contact -->
+                </div>
+            </div>
+            <div id="content-footer"></div> <!-- Content Footer -->
+
+        </div>
+
+        <!-- Social Media -->
+        <div id="socmed">
+            <ul id="socmed-list">
+                <li><a href="https://www.facebook.com/profile.php?id=100010513717553" target="_blank"><img src="img/social/facebook.png" alt="Facebook"/></a></li>
+                <li><a href="http://bbs.fishc.com" target="_blank"><img src="img/social/twitter.png" alt="Twitter"/></a></li>
+                <li><a href="img/wechat.jpg" target="_blank"><img src="img/social/weixin.png" alt="Skype"/></a></li>
+            </ul>
+        </div>
+        <!-- End Social Media -->
+
+    </div>
+    <!-- End Content -->
+
+    <!-- Footer -->
+    <div id="footer">
+        <div id="footer-inner" class="inner"> Copyright © TedXu <a
+                href="http://ted-0711.github.io" target="_blank" title="我的主页" style="color: #2ebb96">我的主页</a>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+</div>
+<!-- End Wrapper -->
+
+
+<!-- This section is for Splash Screen -->
+<div id="preloader-container">
+    <div id="preloader">
+        <div id="preloader-photo"><img src="img/photos/buer.png" alt="Photo of me"/></div>
+        <div id="preloader-title">
+            <h1>许辰昊的简历</h1>
+            Web & Python & More
+        </div>
+    </div>
+</div>
+<div id="jSplash"></div>
+<!-- End of Splash Screen -->
+
+
+
+</body>
+</html>
